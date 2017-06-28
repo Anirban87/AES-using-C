@@ -7,7 +7,7 @@ void login()
 	char ch;
 	int j;
 	
-	printf("\nEnter USER ID and PASSWORD below (You have only three chances to enter)");
+	printf("\nEnter USER ID and PASSWORD below (You have only three chances)");
 	
 	
 	while(n<=3)
@@ -20,8 +20,7 @@ void login()
 			p[j]=scanf("%c",&ch);
 		}	
       		
-      		
-		if(global_user==u && global_pass==p)
+      		if(global_user==u && global_pass==p)
 	        {
          		printf("\nYou have logged in successfully.");
 			printf("\nYour password after encryption is :\n");			
@@ -29,8 +28,7 @@ void login()
 			{
 				printf("%02x ",out[i]);				// Output the encrypted text.
 			}
-			
-       			   	
+			       			   	
       		}
       		else
       		{
