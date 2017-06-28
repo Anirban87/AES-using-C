@@ -1,7 +1,6 @@
 void about()
 {
 	int num;	
-	
 	printf("Welcome to the instruction and about window ");
 	printf("\nSelect your choice :");
 	printf("\n1.Instruction to use ");
