@@ -5,10 +5,8 @@ void setup()
 	char pass[600]; 
 	int i,j,k,l;
 	
-	
 	char ch;
 
-	
 	printf("\nWelcome to the setup wizard !");
 	printf("\nBefore you enter your username and password :-");
 	printf("\nUsername should be in characters");
