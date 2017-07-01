@@ -6,7 +6,7 @@ int main()
 
 	printf("\nWelcome to password manager system using AES");
 	
-	while (ans=='y')
+	while (ans=='y' || ans =='Y')
 	{
 	     	printf("\n");
 		printf("\n1.Setup");
