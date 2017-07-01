@@ -24,4 +24,5 @@ void ShiftRows()
 	state[3][3]=state[3][2];
 	state[3][2]=state[3][1];
 	state[3][1]=temp;
+	
 }
