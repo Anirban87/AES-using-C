@@ -3,8 +3,7 @@ void KeyExpansion()			// This function produces Nb(Nr+1) round keys. The round k
 	int i,j;
 	unsigned char temp[4],k;
 	
-					// The first round key is the key itself.
-	for(i=0;i<Nk;i++)
+	for(i=0;i<Nk;i++)			// The first round key is the key itself.
 	{
 		RoundKey[i*4]=Key[i*4];
 		RoundKey[i*4+1]=Key[i*4+1];
